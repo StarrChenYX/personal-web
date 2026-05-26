@@ -1,0 +1,48 @@
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+@theme {
+  --color-gallery-white: #fafafa;
+  --color-gallery-mist: #f4f1ed;
+  --color-gallery-line: #ded8d0;
+  --color-gallery-soft: #8f8a84;
+  --color-gallery-charcoal: #171717;
+  --color-gallery-black: #050505;
+  --color-accent: #8a6f3d;
+  --color-accent-dark: #5f4b29;
+  --color-accent-soft: #efe7d3;
+  --tracking-gallery: 0.18em;
+}
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background: #fafafa;
+  color: #171717;
+  font-family:
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::selection {
+  background: #efe7d3;
+  color: #050505;
+}
