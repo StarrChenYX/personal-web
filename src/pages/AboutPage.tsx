@@ -70,9 +70,9 @@ export function AboutPage() {
     <main>
       <section className="mx-auto max-w-6xl px-6 py-20 lg:px-10 lg:py-28">
         <p className="text-xs uppercase tracking-gallery text-accent">About</p>
-        <div className="mt-8 grid gap-10 md:grid-cols-[0.95fr_1.05fr] md:items-end">
+        <div className="mt-8 grid gap-10 lg:grid-cols-[minmax(max-content,1fr)_minmax(0,1fr)] lg:items-end">
           <div>
-            <h1 className="font-serif text-4xl leading-tight text-gallery-black md:text-6xl">
+            <h1 className="whitespace-nowrap font-serif text-[clamp(2rem,7vw,3.5rem)] leading-tight tracking-[-0.03em] text-gallery-black">
               Yuanxin "Starr" Chen
             </h1>
             <p className="mt-5 text-sm uppercase tracking-gallery text-gallery-soft">
@@ -94,7 +94,7 @@ export function AboutPage() {
                   {item.href ? (
                     <a
                       href={item.href}
-                      className="mt-2 block text-sm leading-6 text-gallery-black underline decoration-gallery-line underline-offset-4 transition hover:text-accent hover:decoration-accent"
+                      className="mt-2 inline-flex rounded-full border border-accent/25 bg-gallery-mist px-3 py-1.5 text-sm font-semibold leading-6 text-gallery-black shadow-sm transition hover:border-accent/45 hover:bg-gallery-white hover:text-accent"
                     >
                       {item.value}
                     </a>
@@ -117,7 +117,7 @@ export function AboutPage() {
         <div className="grid gap-10 md:grid-cols-[0.32fr_0.68fr] md:gap-12">
           <div>
             <p className="text-xs uppercase tracking-gallery text-accent">
-              Experience
+              Selected Experience
             </p>
             <h2
               id="experience-heading"
