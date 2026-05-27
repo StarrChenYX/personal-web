@@ -1,11 +1,9 @@
 const contactItems = [
-  { label: "Phone", value: "(415) 638-7377" },
   {
     label: "Email",
     value: "starrchenpiano@gmail.com",
     href: "mailto:starrchenpiano@gmail.com",
   },
-  { label: "Location", value: "San Francisco Bay Area" },
 ];
 
 const experience = [
@@ -24,21 +22,6 @@ const experience = [
     role: "Piano Accompanist of USF Choir",
     dates: "August 2025 - Present",
   },
-  {
-    institution: "San Francisco Girl Chorus",
-    role: "Piano Accompanist of L1 Groups (East Bay)",
-    dates: "September 2025 - January 2026",
-  },
-  {
-    institution: "San Francisco Conservatory of Music",
-    role: "Collaborative Piano Department Graduate Assistant",
-    dates: "September 2025 - May 2026",
-  },
-  {
-    institution: "Santa Clara University",
-    role: "On-Call Staff Pianist",
-    dates: "February 2026 - Present",
-  },
 ];
 
 const skills = [
@@ -47,7 +30,7 @@ const skills = [
   "Efficient Schedule Coordination",
   "Last-Minute Substitutions",
   "Punctuality & Reliability",
-  "Extensive Ensemble Experience: orchestra and diverse chamber settings with winds, strings, and voice",
+  "Extensive Ensemble Experience: Orchestra and diverse chamber settings with winds, strings, and voice",
 ];
 
 const education = [
@@ -55,13 +38,11 @@ const education = [
     institution: "Central Conservatory of Music",
     location: "Beijing, China",
     degree: "Bachelor of Music Education",
-    dates: "September 2019 - June 2024",
   },
   {
     institution: "San Francisco Conservatory of Music",
     location: "San Francisco, CA",
     degree: "Master of Collaborative Piano",
-    dates: "September 2024 - May 2026",
   },
 ];
 
@@ -214,7 +195,7 @@ export function AboutPage() {
                     </p>
                   </div>
                   <p className="text-sm uppercase leading-6 tracking-[0.12em] text-gallery-soft sm:text-right">
-                    {item.dates}
+              
                   </p>
                 </div>
                 <p className="mt-5 text-base leading-7 text-gallery-charcoal">
