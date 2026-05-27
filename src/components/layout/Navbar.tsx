@@ -1,14 +1,13 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
 import { Menu, Music2, X } from "lucide-react";
 import { useState } from "react";
+import { Link, useLocation } from "react-router-dom";
 
 import { navigationLinks, siteIdentity } from "@/data/site";
 
 export function Navbar() {
-  const pathname = usePathname();
+  const { pathname } = useLocation();
   const [isOpen, setIsOpen] = useState(false);
 
   const closeMenu = () => setIsOpen(false);
@@ -20,7 +19,7 @@ export function Navbar() {
         aria-label="Primary navigation"
       >
         <Link
-          href="/"
+          to="/"
           className="flex min-w-0 items-center gap-3"
           aria-label={`${siteIdentity.name} home`}
           onClick={closeMenu}
@@ -45,7 +44,7 @@ export function Navbar() {
             return (
               <Link
                 key={link.href}
-                href={link.href}
+                to={link.href}
                 className={`text-sm uppercase tracking-gallery transition hover:text-accent ${
                   isActive ? "text-accent" : "text-gallery-charcoal"
                 }`}
@@ -80,7 +79,7 @@ export function Navbar() {
               return (
                 <Link
                   key={link.href}
-                  href={link.href}
+                  to={link.href}
                   className={`block py-2 text-sm uppercase tracking-gallery transition hover:text-accent ${
                     isActive ? "text-accent" : "text-gallery-charcoal"
                   }`}

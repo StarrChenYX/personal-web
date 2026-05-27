@@ -2,7 +2,7 @@ import { AboutPreview } from "@/components/AboutPreview";
 import { Hero } from "@/components/Hero";
 import { ServicesOverview } from "@/components/ServicesOverview";
 
-export default function Home() {
+export function HomePage() {
   return (
     <>
       <Hero />

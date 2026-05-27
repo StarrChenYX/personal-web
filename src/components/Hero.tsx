@@ -1,5 +1,5 @@
-import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 
 import { heroContent } from "@/data/home";
 
@@ -24,7 +24,7 @@ export function Hero() {
           {heroContent.subheading}
         </p>
         <Link
-          href={heroContent.ctaHref}
+          to={heroContent.ctaHref}
           className="mt-12 inline-flex items-center justify-center gap-3 rounded-full bg-accent px-7 py-4 text-sm uppercase tracking-gallery text-gallery-white transition hover:bg-accent-dark focus:outline-none focus:ring-2 focus:ring-accent-soft focus:ring-offset-4 focus:ring-offset-gallery-black"
         >
           {heroContent.ctaLabel}

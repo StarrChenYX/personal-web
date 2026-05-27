@@ -12,32 +12,32 @@ const experience = [
   {
     institution: "Central Conservatory of Music",
     role: "Piano Accompanist of Music Education Department Choir",
-    dates: "September 2022 – June 2024",
+    dates: "September 2022 - June 2024",
   },
   {
     institution: "San Francisco Conservatory of Music",
     role: "Voice Department Pianist",
-    dates: "February 2025 – Present",
+    dates: "February 2025 - Present",
   },
   {
     institution: "University of San Francisco",
     role: "Piano Accompanist of USF Choir",
-    dates: "August 2025 – Present",
+    dates: "August 2025 - Present",
   },
   {
     institution: "San Francisco Girl Chorus",
     role: "Piano Accompanist of L1 Groups (East Bay)",
-    dates: "September 2025 – January 2026",
+    dates: "September 2025 - January 2026",
   },
   {
     institution: "San Francisco Conservatory of Music",
     role: "Collaborative Piano Department Graduate Assistant",
-    dates: "September 2025 – May 2026",
+    dates: "September 2025 - May 2026",
   },
   {
     institution: "Santa Clara University",
     role: "On-Call Staff Pianist",
-    dates: "February 2026 – Present",
+    dates: "February 2026 - Present",
   },
 ];
 
@@ -55,17 +55,17 @@ const education = [
     institution: "Central Conservatory of Music",
     location: "Beijing, China",
     degree: "Bachelor of Music Education",
-    dates: "September 2019 – June 2024",
+    dates: "September 2019 - June 2024",
   },
   {
     institution: "San Francisco Conservatory of Music",
     location: "San Francisco, CA",
     degree: "Master of Collaborative Piano",
-    dates: "September 2024 – May 2026",
+    dates: "September 2024 - May 2026",
   },
 ];
 
-export default function AboutPage() {
+export function AboutPage() {
   return (
     <main>
       <section className="mx-auto max-w-6xl px-6 py-20 lg:px-10 lg:py-28">
@@ -73,10 +73,10 @@ export default function AboutPage() {
         <div className="mt-8 grid gap-10 md:grid-cols-[0.95fr_1.05fr] md:items-end">
           <div>
             <h1 className="font-serif text-4xl leading-tight text-gallery-black md:text-6xl">
-              Yuanxin “Starr” Chen
+              Yuanxin "Starr" Chen
             </h1>
             <p className="mt-5 text-sm uppercase tracking-gallery text-gallery-soft">
-              <span aria-hidden="true">丨</span> Collaborative Pianist
+              <span aria-hidden="true">|</span> Collaborative Pianist
             </p>
           </div>
           <div className="space-y-6 text-lg leading-9 text-gallery-soft">
@@ -171,7 +171,10 @@ export default function AboutPage() {
                 key={skill}
                 className="border border-gallery-line bg-gallery-white px-5 py-5 text-base leading-7 text-gallery-charcoal"
               >
-                <span className="mb-4 block h-px w-10 bg-accent" aria-hidden="true" />
+                <span
+                  className="mb-4 block h-px w-10 bg-accent"
+                  aria-hidden="true"
+                />
                 {skill}
               </li>
             ))}

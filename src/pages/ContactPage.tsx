@@ -2,7 +2,7 @@ import { BookingGuide } from "@/components/BookingGuide";
 import { ContactCard } from "@/components/ContactCard";
 import { contactIntro } from "@/data/contact";
 
-export default function ContactPage() {
+export function ContactPage() {
   return (
     <section className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-28">
       <div className="grid gap-14 lg:grid-cols-[0.82fr_1.18fr] lg:items-start">

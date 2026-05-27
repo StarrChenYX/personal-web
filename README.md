@@ -1,7 +1,7 @@
 # personal-web
 
 Minimal, elegant website foundation for a collaborative pianist SMLLC, built with
-Next.js App Router, Tailwind CSS, and Lucide React.
+Vite, React Router, Tailwind CSS, and Lucide React.
 
 ## Step 1: Project structure
 
@@ -9,20 +9,17 @@ Place files in the following locations:
 
 ```txt
 /
-├── next.config.ts
+├── index.html
 ├── package.json
 ├── postcss.config.mjs
 ├── tailwind.config.js
 ├── tsconfig.json
+├── vite.config.ts
 └── src
+    ├── App.tsx
+    ├── main.tsx
     ├── app
-    │   ├── about/page.tsx
-    │   ├── contact/page.tsx
-    │   ├── media/page.tsx
-    │   ├── repertoire/page.tsx
-    │   ├── globals.css
-    │   ├── layout.tsx
-    │   └── page.tsx
+    │   └── globals.css
     ├── components
     │   ├── AboutPreview.tsx
     │   ├── AboutSection.tsx
@@ -42,12 +39,18 @@ Place files in the following locations:
         ├── media.ts
         ├── repertoire.json
         └── site.ts
+    └── pages
+        ├── AboutPage.tsx
+        ├── ContactPage.tsx
+        ├── HomePage.tsx
+        ├── MediaPage.tsx
+        └── RepertoirePage.tsx
 ```
 
 ## Step 2: Base configuration
 
-- `next.config.ts` enables a strict Next.js app foundation.
-- `postcss.config.mjs` wires Tailwind CSS into Next.js.
+- `vite.config.ts` enables React support and the `@/*` import alias.
+- `postcss.config.mjs` wires Tailwind CSS into Vite.
 - `tailwind.config.js` defines the monochrome gallery palette plus a muted gold
   accent color.
 - `src/app/globals.css` imports Tailwind and applies the base typography,
@@ -56,13 +59,13 @@ Place files in the following locations:
 
 ## Step 3: Routes
 
-The App Router pages are:
+The React Router routes are:
 
-- `/` -> `src/app/page.tsx`
-- `/about` -> `src/app/about/page.tsx`
-- `/repertoire` -> `src/app/repertoire/page.tsx`
-- `/media` -> `src/app/media/page.tsx`
-- `/contact` -> `src/app/contact/page.tsx`
+- `/` -> `src/pages/HomePage.tsx`
+- `/about` -> `src/pages/AboutPage.tsx`
+- `/repertoire` -> `src/pages/RepertoirePage.tsx`
+- `/media` -> `src/pages/MediaPage.tsx`
+- `/contact` -> `src/pages/ContactPage.tsx`
 
 ## Step 4: Component and data separation
 
@@ -88,4 +91,13 @@ The App Router pages are:
 pnpm dev
 ```
 
-Then open `http://localhost:3000`.
+Then open the Vite local URL printed in the terminal, usually
+`http://localhost:5173`.
+
+## Step 6: Cloudflare Pages
+
+Use these build settings:
+
+- Package manager: `pnpm`
+- Build command: `pnpm build`
+- Build output directory: `dist`
