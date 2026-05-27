@@ -2,43 +2,283 @@
   "_README": "To add repertoire, copy one object inside the pieces array and update category, composer, title, key, catalog, and nickname. Use an empty string or omit key, catalog, or nickname when that detail does not apply. Keep commas between objects and keep all text inside double quotes.",
   "pieces": [
     {
-      "category": "Vocal",
+      "category": "Sonatas",
+      "composer": "Johannes Brahms",
+      "title": "Violin Sonata No. 1",
+      "key": "in G major",
+      "catalog": "Op. 78",
+      "nickname": ""
+    },
+    {
+      "category": "Sonatas",
+      "composer": "Johannes Brahms",
+      "title": "Violin Sonata No. 2",
+      "key": "in A major",
+      "catalog": "Op. 100",
+      "nickname": ""
+    },
+    {
+      "category": "Sonatas",
+      "composer": "Johannes Brahms",
+      "title": "Violin Sonata No. 3",
+      "key": "in D minor",
+      "catalog": "Op. 108",
+      "nickname": ""
+    },
+    {
+      "category": "Sonatas",
+      "composer": "Johannes Brahms",
+      "title": "Cello Sonata No. 1",
+      "key": "in E minor",
+      "catalog": "Op. 38",
+      "nickname": ""
+    },
+    {
+      "category": "Sonatas",
+      "composer": "César Franck",
+      "title": "Violin Sonata",
+      "key": "in A major",
+      "catalog": "",
+      "nickname": ""
+    },
+    {
+      "category": "Sonatas",
+      "composer": "York Bowen",
+      "title": "Oboe Sonata",
+      "key": "",
+      "catalog": "Op. 85",
+      "nickname": ""
+    },
+    {
+      "category": "Sonatas",
+      "composer": "Ludwig van Beethoven",
+      "title": "Violin Sonata No. 9",
+      "key": "in A major",
+      "catalog": "Op. 47 \"Kreutzer\" (1st Movement)",
+      "nickname": ""
+    },
+    {
+      "category": "Sonatas",
+      "composer": "Felix Mendelssohn",
+      "title": "Cello Sonata No. 2",
+      "key": "in D major",
+      "catalog": "Op. 58",
+      "nickname": ""
+    },
+    {
+      "category": "Sonatas",
+      "composer": "Sergei Rachmaninoff",
+      "title": "Cello Sonata",
+      "key": "in G minor",
+      "catalog": "Op. 19",
+      "nickname": ""
+    },
+    {
+      "category": "Sonatas",
+      "composer": "Franz Schubert",
+      "title": "Arpeggione Sonata",
+      "key": "in A minor",
+      "catalog": "D. 821",
+      "nickname": ""
+    },
+    {
+      "category": "Sonatas",
+      "composer": "Richard Strauss",
+      "title": "Violin Sonata",
+      "key": "in E-flat major",
+      "catalog": "Op. 18 (1st Movement)",
+      "nickname": ""
+    },
+    {
+      "category": "Chamber Music",
+      "composer": "Johannes Brahms",
+      "title": "Piano Quartet No. 3",
+      "key": "in C minor",
+      "catalog": "Op. 60",
+      "nickname": ""
+    },
+    {
+      "category": "Chamber Music",
+      "composer": "Johannes Brahms",
+      "title": "Horn Trio",
+      "key": "in E-flat major",
+      "catalog": "Op. 40",
+      "nickname": ""
+    },
+    {
+      "category": "Chamber Music",
+      "composer": "Felix Mendelssohn",
+      "title": "Piano Trio No. 1",
+      "key": "in D minor",
+      "catalog": "Op. 49",
+      "nickname": ""
+    },
+    {
+      "category": "Chamber Music",
+      "composer": "Bedřich Smetana",
+      "title": "Piano Trio",
+      "key": "in G minor",
+      "catalog": "Op. 15",
+      "nickname": ""
+    },
+    {
+      "category": "Chamber Music",
+      "composer": "Heinrich von Herzogenberg",
+      "title": "Trio for Oboe, Horn, and Piano",
+      "key": "",
+      "catalog": "Op. 61",
+      "nickname": ""
+    },
+    {
+      "category": "Concerto Accompaniment",
+      "composer": "Jean Sibelius",
+      "title": "Violin Concerto",
+      "key": "in D minor",
+      "catalog": "Op. 47",
+      "nickname": ""
+    },
+    {
+      "category": "Concerto Accompaniment",
+      "composer": "Felix Mendelssohn",
+      "title": "Violin Concerto",
+      "key": "in E minor",
+      "catalog": "Op. 64",
+      "nickname": ""
+    },
+    {
+      "category": "Concerto Accompaniment",
+      "composer": "Pyotr Ilyich Tchaikovsky",
+      "title": "Violin Concerto",
+      "key": "in D major",
+      "catalog": "Op. 35 (1st Movement)",
+      "nickname": ""
+    },
+    {
+      "category": "Concerto Accompaniment",
+      "composer": "Wolfgang Amadeus Mozart",
+      "title": "Bassoon Concerto",
+      "key": "in B-flat major",
+      "catalog": "K. 191",
+      "nickname": ""
+    },
+    {
+      "category": "Concerto Accompaniment",
+      "composer": "Wolfgang Amadeus Mozart",
+      "title": "Piano Concerto No. 14",
+      "key": "in A major",
+      "catalog": "K. 414",
+      "nickname": ""
+    },
+    {
+      "category": "Concerto Accompaniment",
+      "composer": "Antonio Pasculli",
+      "title": "Gran Concerto on Themes from \"I Vespri Siciliani\"",
+      "key": "",
+      "catalog": "",
+      "nickname": ""
+    },
+    {
+      "category": "Concerto Accompaniment",
+      "composer": "Jean-Denis Michat",
+      "title": "Concerto for Alto Saxophone",
+      "key": "",
+      "catalog": "",
+      "nickname": ""
+    },
+    {
+      "category": "Vocal Works",
+      "composer": "Sergei Rachmaninoff",
+      "title": "Six Romances",
+      "key": "",
+      "catalog": "Op. 4",
+      "nickname": ""
+    },
+    {
+      "category": "Vocal Works",
+      "composer": "Franz Schubert",
+      "title": "Winterreise (Winter Journey)",
+      "key": "",
+      "catalog": "D. 911",
+      "nickname": ""
+    },
+    {
+      "category": "Vocal Works",
       "composer": "Franz Schubert",
       "title": "Gretchen am Spinnrade",
-      "key": "in D minor",
+      "key": "",
       "catalog": "D. 118",
       "nickname": ""
     },
     {
-      "category": "Strings",
-      "composer": "Ludwig van Beethoven",
-      "title": "Violin Sonata No. 9",
-      "key": "in A major",
-      "catalog": "Op. 47",
-      "nickname": "Kreutzer"
-    },
-    {
-      "category": "Winds",
-      "composer": "Francis Poulenc",
-      "title": "Flute Sonata",
+      "category": "Vocal Works",
+      "composer": "Edvard Grieg",
+      "title": "6 Songs",
       "key": "",
-      "catalog": "FP 164",
+      "catalog": "Op. 48",
       "nickname": ""
     },
     {
-      "category": "Chamber",
-      "composer": "Johannes Brahms",
-      "title": "Piano Trio No. 1",
-      "key": "in B major",
-      "catalog": "Op. 8",
-      "nickname": ""
-    },
-    {
-      "category": "Strings",
-      "composer": "Cesar Franck",
-      "title": "Violin Sonata",
-      "key": "in A major",
+      "category": "Vocal Works",
+      "composer": "Claude Debussy",
+      "title": "Ariettes oubliées",
+      "key": "",
       "catalog": "",
+      "nickname": ""
+    },
+    {
+      "category": "Vocal Works",
+      "composer": "Ralph Vaughan Williams",
+      "title": "Songs of Travel",
+      "key": "",
+      "catalog": "",
+      "nickname": ""
+    },
+    {
+      "category": "Vocal Works",
+      "composer": "Wolfgang Amadeus Mozart",
+      "title": "Dove sono i bei momenti (from Le Nozze di Figaro, K. 492)",
+      "key": "",
+      "catalog": "",
+      "nickname": ""
+    },
+    {
+      "category": "Vocal Works",
+      "composer": "Jake Heggie",
+      "title": "Golden Heart (from Dead Man Walking)",
+      "key": "",
+      "catalog": "",
+      "nickname": ""
+    },
+    {
+      "category": "Vocal Works",
+      "composer": "Gioachino Rossini",
+      "title": "Una voce poco fa (from Il barbiere di Siviglia)",
+      "key": "",
+      "catalog": "",
+      "nickname": ""
+    },
+    {
+      "category": "Vocal Works",
+      "composer": "Amy Marcy Cheney Beach",
+      "title": "Three Browning Songs",
+      "key": "",
+      "catalog": "Op. 44",
+      "nickname": ""
+    },
+    {
+      "category": "Solo Works",
+      "composer": "Frédéric Chopin",
+      "title": "Ballade No. 4",
+      "key": "in F minor",
+      "catalog": "Op. 52",
+      "nickname": ""
+    },
+    {
+      "category": "Solo Works",
+      "composer": "Nikolai Kapustin",
+      "title": "Variations",
+      "key": "",
+      "catalog": "Op. 41",
       "nickname": ""
     }
   ]
