@@ -1,6 +1,6 @@
 import { RepertoireList } from "@/components/RepertoireList";
 
-export default function RepertoirePage() {
+export function RepertoirePage() {
   return (
     <section className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-28">
       <div className="max-w-3xl">

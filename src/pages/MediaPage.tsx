@@ -1,7 +1,7 @@
 import { MediaGrid } from "@/components/MediaGrid";
 import { mediaIntro } from "@/data/media";
 
-export default function MediaPage() {
+export function MediaPage() {
   return (
     <section className="mx-auto max-w-7xl px-6 py-20 lg:px-10 lg:py-28">
       <div className="mx-auto max-w-3xl text-center">

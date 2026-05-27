@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "react-router-dom";
 
 import { contactMethods } from "@/data/contact";
 import { navigationLinks, siteIdentity } from "@/data/site";
@@ -29,7 +29,7 @@ export function Footer() {
             {navigationLinks.map((link) => (
               <Link
                 key={link.href}
-                href={link.href}
+                to={link.href}
                 className="text-sm text-gallery-white/75 transition hover:text-accent"
               >
                 {link.label}
