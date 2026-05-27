@@ -1,5 +1,3 @@
-"use client";
-
 import { Menu, Music2, X } from "lucide-react";
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";

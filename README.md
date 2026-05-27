@@ -20,8 +20,6 @@ Place files in the following locations:
 └── src
     ├── App.tsx
     ├── main.tsx
-    ├── app
-    │   └── globals.css
     ├── components
     │   ├── AboutPreview.tsx
     │   ├── AboutSection.tsx
@@ -41,12 +39,14 @@ Place files in the following locations:
     │   ├── media.ts
     │   ├── repertoire.json
     │   └── site.ts
-    └── pages
-        ├── AboutPage.tsx
-        ├── ContactPage.tsx
-        ├── HomePage.tsx
-        ├── MediaPage.tsx
-        └── RepertoirePage.tsx
+    ├── pages
+    │   ├── AboutPage.tsx
+    │   ├── ContactPage.tsx
+    │   ├── HomePage.tsx
+    │   ├── MediaPage.tsx
+    │   └── RepertoirePage.tsx
+    └── styles
+        └── globals.css
 ```
 
 ## Step 2: Base configuration
@@ -55,7 +55,7 @@ Place files in the following locations:
 - `postcss.config.mjs` wires Tailwind CSS into Vite.
 - `tailwind.config.js` defines the monochrome gallery palette plus a muted gold
   accent color.
-- `src/app/globals.css` imports Tailwind and applies the base typography,
+- `src/styles/globals.css` imports Tailwind and applies the base typography,
   selection color, and global page background.
 - `tsconfig.json` enables strict TypeScript and the `@/*` import alias.
 - `public/_redirects` lets Cloudflare Pages serve `index.html` for client-side
