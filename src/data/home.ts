@@ -25,21 +25,21 @@ export const aboutPreview = {
 
 export const homeServices: HomeService[] = [
   {
-    title: "Vocal Collaboration",
+    title: "Performances & Recordings",
     description:
-      "Sensitive, text-aware partnership for art song, opera, auditions, recitals, and studio preparation.",
+      "Collaborative support for recitals, chamber programs, auditions, and studio sessions (Local & travel engagements).",
     icon: "vocal",
   },
   {
-    title: "Instrumental Sonatas",
+    title: "Rehearsal Support",
     description:
-      "Clear, responsive support for sonata repertoire, concerto reductions, competitions, and juries.",
+      "Dedicated preparation for vocalists, instrumentalists, and ensembles across the Bay Area.",
     icon: "sonata",
   },
   {
-    title: "Chamber Ensembles",
+    title: "Piano Lessons",
     description:
-      "Thoughtful ensemble playing for intimate chamber programs, contemporary works, and special events.",
+      "In-home instruction for all levels, from beginner to advanced. Serving Menlo Park, Atherton, and Redwood City.",
     icon: "ensemble",
   },
 ];
