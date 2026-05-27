@@ -8,16 +8,17 @@ export const heroContent = {
   eyebrow: "COLLABORATIVE PIANIST | Yuanxin Starr Chen",
   heading: "Elevating Performances through Collaborative Artistry",
   subheading:
-    "Refined piano partnership for vocalists, instrumentalists, and chamber musicians preparing performances with confidence and nuance.",
+    "Collaborative Pianist based in SF Bay Area. Dedicated partnership for vocalists, instrumentalists, and choirs. Available for diverse musical settings—including rehearsals, music salons, recitals, and recordings, as well as last-minute performance coverage."
+,
   ctaLabel: "Book a Collaboration",
   ctaHref: "/contact",
 };
 
 export const aboutPreview = {
   eyebrow: "About",
-  title: "Collaborative Artistry in Motion.",
+  title: "The Road to Musical Partnership.",
   body:
-    "As a collaborative pianist, I believe that true artistry flourishes in the space between musicians. My approach is rooted in being adaptable and collaborative, serving as a sensitive partner who is responsive to the nuances of every performance. With years of experience on stage, I don’t just accompany—I engage, fostering a shared musical dialogue that elevates the performance.",
+    "A collaborative pianist active in the Bay Area. Whether it's a last-minute rehearsal or a high-stakes performance, I bring adaptability, precision, and a partner’s intuition to every project. ",
   ctaLabel: "Read Full Biography",
   ctaHref: "/about",
 };
