@@ -85,7 +85,7 @@ The App Router pages are:
 ## Step 5: Local development
 
 ```bash
-npm run dev
+pnpm dev
 ```
 
 Then open `http://localhost:3000`.
