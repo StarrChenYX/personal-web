@@ -26,7 +26,7 @@ export const contactMethods: ContactMethod[] = [
   },
   {
     label: "Location",
-    value: "Available for local and travel engagements",
+    value: "Based on the San Francisco Peninsula, with availability throughout the Bay Area and beyond.",
     href: "/contact",
   },
 ];
