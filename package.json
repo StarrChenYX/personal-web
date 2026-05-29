@@ -1,7 +1,7 @@
 {
   "name": "personal-web",
   "version": "1.0.0",
-  "description": "Collaborative pianist SMLLC website.",
+  "description": "Collaborative pianist website.",
   "packageManager": "pnpm@10.33.3",
   "scripts": {
     "dev": "vite",

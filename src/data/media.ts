@@ -7,28 +7,26 @@ export type MediaVideo = {
 
 export const mediaIntro = {
   eyebrow: "Media",
-  heading: "A focused gallery for performance video.",
-  description:
-    "This page is prepared for recital, audition, chamber, and studio recordings. Add YouTube or Vimeo embed URLs when final media is ready.",
-};
+  heading: "Performance Gallery",
+  description:"Selected recordings and performance highlights"}
 
 export const mediaVideos: MediaVideo[] = [
   {
-    title: "Recital Performance",
-    description: "Feature a live recital collaboration or studio performance.",
+    title: "Rachmaninoff: Cello Sonata, Op.19",
+    description: "Piano & Cello",
     provider: "YouTube",
-    embedUrl: "",
+    embedUrl: "https://www.youtube.com/embed/DbdGrtHqnsY?si=Ho9d4Wx6OvaDEhCA",
   },
   {
-    title: "Vocal Collaboration",
-    description: "Showcase art song, aria, or musical theatre partnership.",
-    provider: "Vimeo",
-    embedUrl: "",
+    title: "Debussy: Il pleure dans mon coeur",
+    description: "Piano & Voice",
+    provider: "YouTube",
+    embedUrl: "https://www.youtube.com/embed/XDAQirgZc-U?si=DN3GsKJZKYb6NBs_",
   },
   {
-    title: "Chamber Ensemble",
-    description: "Highlight chamber music or instrumental collaboration.",
+    title: "Guo Xiaohu: 《壮美延安》",
+    description: "Choir Accompaniment",
     provider: "YouTube",
-    embedUrl: "",
+    embedUrl: "https://www.youtube.com/embed/UbymZJzAk-8?si=W0SXiLajRPQEdMmt",
   },
 ];

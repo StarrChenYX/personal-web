@@ -1,6 +1,6 @@
 # personal-web
 
-Minimal, elegant website foundation for a collaborative pianist SMLLC, built with
+Minimal, elegant website foundation for a collaborative pianist, built with
 Vite, React Router, Tailwind CSS, and Lucide React.
 
 ## Step 1: Project structure

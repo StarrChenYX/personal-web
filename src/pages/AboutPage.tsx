@@ -53,10 +53,10 @@ export function AboutPage() {
         <p className="text-xs uppercase tracking-gallery text-accent">About</p>
         <div className="mt-8 grid gap-10 lg:grid-cols-[minmax(max-content,1fr)_minmax(0,1fr)] lg:items-end">
           <div>
-            <h1 className="whitespace-nowrap font-serif text-[clamp(2rem,7vw,3.5rem)] leading-tight tracking-[-0.03em] text-gallery-black">
+            <h1 className="-translate-y-32 whitespace-nowrap font-serif text-[clamp(2rem,7vw,3.5rem)] leading-tight tracking-[-0.03em] text-gallery-black">
               Yuanxin "Starr" Chen
             </h1>
-            <p className="mt-5 text-sm uppercase tracking-gallery text-gallery-soft">
+            <p className="-translate-y-32 mt-5 text-sm uppercase tracking-gallery text-gallery-soft">
               <span aria-hidden="true">|</span> Collaborative Pianist
             </p>
           </div>
